@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+      <div class="container">
+        <nav>
+            <img src="./logoo.webp" alt="" class="logo" style="width: 250px;">
+            <ul>
+                <li><a href="#header-text">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#service">Service</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>Future Frontend Developer</p>
+            <h1>Hi, I'm <span style="color: purple;">Sana Tabassum</span> <br> and im from India </h1>
+        </div>
+      </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                  <img src="./work.png" alt="" style="height:70vh; border-radius: 30px;">
+                </div>
+                <div class="about-col-2">
+                  <h1 class="sub-title"  >About me</h1>
+                  <p style="font-size: 25px;">
+                    MBA professional with experience in Ed-Tech sales with good knowledge in the products and services that ed tech companies offer and the strategies for marketing and selling them. I have a good understanding about the latest trends in ed tech and the best strategies for driving customer engagement. I am also skilled in customer service, sales presentations, and the development of customer relationships. Additionally, I have experience in creating and managing effective sales campaigns, and in measuring their success. I am highly organized and excellent at multitasking, which makes me an asset when it comes to meeting tight deadlines. My background and experience make me an ideal candidate for any competitive sales roles.</p>
+                    <div class="tab-title">
+                        <p class="tab-links active-links" onclick="openTab('skills')" style="color: white;" >Skills</p>
+                        <p class="tab-links" onclick="openTab('education')" style="color: white;" >Education</p>
+                    </div>
+                    <div class="tab-content active-tab" id="skills" >
+                        <ul>
+                            <li style="font-size: 20px;"><span>web development</span><br>  web app development</li>
+                            <li style="font-size: 20px;" ><span>app development</span><br> building androild/ios app's</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="education">
+                        <ul>
+                            <li style="font-size: 20px;"><span>MBA</span><br>Amjad ali khan college of business administration</li>
+                            <li style="font-size: 20px;"><span>B.COM</span><br>Rukmini college of commerce and management</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+     <div id="service">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div class="style">
+                    <h2 style="color: rgb(207, 84, 207); font-size: 30px">Web design</h2>
+                    <p style="font-size: 25px;">creating websites using HTML, CSS and javascript where HTML is used for creating structure of webpage, CSS for styling and javascript for functions in webpage</p>
+                    <a href="#" style="font-size:25px; color: rgb(23, 23, 167);">learn more</a>
+                </div>
+                <div class="style">
+                    <h2 style="color: rgb(207, 84, 207); font-size: 30px;">UI/UX</h2>
+                    <p  style="font-size: 25px;">designing or creating user interphase and user experience</p>
+                    <a href="#" style="font-size: 25px; color: rgb(23, 23, 167);" >learn more</a>
+                </div>
+                <div class="style">
+                    <h2 style="color: rgb(207, 84, 207); font-size: 30px">App design</h2>
+                    <p style="font-size: 25px;">creating websites using HTML, CSS and javascript where HTML is used for creating structure of webpage, CSS for styling and javascript for functions in webpage</p>
+                    <a href="#" style="font-size: 25px; color: rgb(23, 23, 167);">learn more</a>
+                </div>
+            </div>
+        </div>
+     </div>
+     <div id="portfolio">
+        <div class="container">
+          <h1 class="sub-title">My Work</h1>
+          <div class="work-list">
+            <div class="work">
+              <img src="./f.webp" alt="" style="width: 508px; height: 339px;">
+              <div class="layer">
+                <h2>Forms</h2>
+                <p>Creadted forms using HTML, CSS AND javascript.Forms are used to collect the required information in a logical, meaningful fashion for communication and pass to another entity. </p>
+              </div>
+            </div>
+              <div class="work">
+              <img src="./w.jpeg" alt="">
+              <div class="layer">
+                <h2>websites</h2>
+                <p>Creadted websites using HTML, CSS AND javascript. Websites are typically dedicated to a particular topic or purpose, such as news, education, commerce, entertainment or social networking. </p>
+              </div>
+            </div>
+            <div class="work">
+              <img src="./p.jpeg" alt=""  style="width: 508px; height: 339px;" >
+              <div class="layer">
+                <h2>Landing pages</h2>
+                <p>Creadted landing pages using HTML, CSS AND javascript. The main purpose of a landing page is to encourage visitors to take action. This action is usually related to lead generation or sales.</p>
+              </div>
+            </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+            </div>
+          </div>
+          <div id="contact">
+            <div class="container">
+              <div class="row">
+                <div class="contact-left">
+                  <h1 class="sub-title">Contact me</h1>
+                  <p><i class="fa-solid fa-envelope"></i>tabassumsana512@gmail.com</p>
+                  <p><i class="fa-solid fa-phone"></i>9640357242</p>
+                  <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/sana-tabassum-3279781ab/?originalSubdomain=in"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://instagram.com/_sana__tabassum_?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"></i></a>
+                
+                  </div>
+                  <a href="./Template - 9 - 1660946226 (5).pdf" download class="btn btn2">Download CV</a>
+                  </div>
+                  <div class="contact-right">
+                     <form>
+                      <input type="text" name="Name" placeholder="your name" required>
+                      <input type="email" name="email" placeholder="your email" required>
+                      <textarea name="text" rows="6" placeholder="your message" required></textarea>
+                      <button type="submit" class="btn btn2">submit</button>
+                     </form>
+                  
+                </div>
+              </div>
+
+            </div>
+          </div>
+        
+     
+
+          <script src="https://kit.fontawesome.com/23ac6a506b.js" crossorigin="anonymous"></script>
+   <script src="./script.js"> </script>
+</body>
+</html>
